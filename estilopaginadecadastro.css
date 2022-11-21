@@ -1,0 +1,79 @@
+* {
+    margin:0; 
+    padding: 0; 
+    box-sizing: border-box;
+} 
+body{
+     background-color:rgb(95, 95, 95) ; 
+     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+     overflow:hidden;  
+     background-image: url(windows_11_dark_color_default_wallpaper_free_by_theekshananirmal_derygqg-fullview.jpg);
+} 
+.area-login{
+    display: flex; 
+    justify-content: center;
+    height: 100vh; 
+    justify-content: center; 
+    align-items: center; 
+
+
+} 
+.login{
+    display: flex; 
+    flex-direction:column ; 
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.514); 
+    width: 355px;
+    height: 320px;  
+    padding: 35px;  
+    border-radius: 10px; 
+
+    
+
+
+} 
+.login form{
+    display: flex; 
+    width: 100%;
+    flex-direction: column;
+
+} 
+.login input{
+    margin-top: 10px ;  
+    background-color: rgb(71, 71, 71);  
+    border: none; 
+    height: 45px; 
+    outline: none; 
+    border-radius: 8px; 
+    color: azure; 
+    padding-left: 10px;
+    
+
+} 
+.login img{  
+    width: 65px; 
+    height:auto ;
+} 
+input ::placeholder{
+    color: azure; 
+    font-size: 14px; 
+ 
+} 
+form [type="submit"] {
+    display:block;
+     
+    background-color: rgb(130, 95, 211); 
+    font-size: 20px; 
+    text-transform: uppercase;  
+    font-weight: bold;  
+    cursor: pointer;
+
+} 
+p{
+    color: white;
+} 
+a{
+    color: rgb(122, 90, 199); 
+    text-decoration: none; 
+    margin-left: 10px;
+}
